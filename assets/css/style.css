@@ -1,0 +1,31 @@
+:root{
+    --color1:black;
+    --color2:blue;
+    --color3:gray;
+    --color4:darkgray;
+  }
+  
+  td{
+    padding: 5px;
+    margin: 20px;
+    vertical-align: top
+  
+  }
+  
+  h2{
+    color: var(--color1);
+  }
+  
+  a{
+    color: var(--color2);
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color: var(--color3);
+  }
+  
+  a:hover{
+    text-decoration: underline;
+    
+  }
